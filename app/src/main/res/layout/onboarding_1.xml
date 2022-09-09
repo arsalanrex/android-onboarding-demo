@@ -26,19 +26,35 @@
         app:layout_constraintTop_toTopOf="@+id/guideline6"
         app:srcCompat="@drawable/onboarding_activity_ic_waves_1" />
 
-    <ImageView
-        android:id="@+id/imageView3"
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView3"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:contentDescription="Picture of person giving test"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/guideline7"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/guideline5"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/guideline5"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/guideline3"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/guideline12"-->
+<!--        app:layout_constraintVertical_bias="1.0"-->
+<!--        app:srcCompat="@drawable/onboarding_activity_image_ic_1" />-->
+
+    <soup.neumorphism.NeumorphTextView
+        style="@style/Widget.Neumorph.TextView"
+        android:text="GOOSEBUMPS"
+        android:textSize="40dp"
+        android:textStyle="bold"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:contentDescription="Picture of person giving test"
+        android:textColor="@color/blackNavy"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/onboarding_activity_ic_image_1" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"
@@ -75,15 +91,15 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.85" />
 
-    <Button
+    <soup.neumorphism.NeumorphButton
         android:id="@+id/button2"
+        style="@style/Widget.Neumorph.Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@drawable/onboarding_activity_button_1"
         android:fontFamily="@font/montserrat_semibold"
         android:onClick="nextPage"
         android:text="Next"
@@ -91,7 +107,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline14"
         app:layout_constraintStart_toStartOf="@+id/guideline13"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+        app:layout_constraintTop_toTopOf="@+id/guideline8"/>
 
     <TextView
         android:id="@+id/textView7"
