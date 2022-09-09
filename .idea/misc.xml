@@ -7,10 +7,18 @@
         <entry key="app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu_manage.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu_send.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu_share.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/onboarding_activity_button_1.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/onboarding_activity_button_2.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/onboarding_activity_button_3.xml" value="0.1425" />
         <entry key="app/src/main/res/drawable/onboarding_activity_button_4.xml" value="0.1425" />
+        <entry key="app/src/main/res/drawable/onboarding_activity_ic_image_1.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/onboarding_activity_ic_image_2.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/onboarding_activity_ic_image_3.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/onboarding_activity_ic_waves_1.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/onboarding_activity_ic_waves_2.xml" value="0.1525" />
         <entry key="app/src/main/res/drawable/onboarding_activity_ic_waves_3.xml" value="0.1525" />
@@ -24,7 +32,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
