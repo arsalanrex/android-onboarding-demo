@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_cream"
+    android:background="@color/cream"
     tools:context="Onboarding.OnboardingActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -14,18 +14,19 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.1" />
 
+
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:contentDescription="TODO"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline6"
         app:srcCompat="@drawable/onboarding_activity_ic_waves_1" />
-
 
     <soup.neumorphism.NeumorphTextView
         android:id="@+id/textview"
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="GOOSEBUMPS"
-        android:textColor="#EFEEEE"
+        android:textColor="@color/cream"
         android:textSize="40sp"
         android:textStyle="bold"
         android:fontFamily="@font/montserrat_semibold"

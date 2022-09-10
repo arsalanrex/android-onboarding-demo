@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_cream"
+    android:background="@color/cream"
     tools:context="Onboarding.OnboardingActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -26,19 +26,28 @@
         app:layout_constraintTop_toTopOf="@+id/guideline6"
         app:srcCompat="@drawable/onboarding_activity_ic_waves_2" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:contentDescription="Picture of person giving test"
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/flat_card"
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="48dp"
+        android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline7"
         app:layout_constraintEnd_toEndOf="@+id/guideline5"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/onboarding_activity_ic_image_2" />
+        app:layout_constraintVertical_bias="0.250">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_no_back" />
+
+    </soup.neumorphism.NeumorphCardView>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline4"

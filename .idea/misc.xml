@@ -6,6 +6,9 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic__5kzbg01.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.2085" />
+        <entry key="app/src/main/res/drawable/ic_baseline_keyboard_backspace_24.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/ic_baseline_not_interested_24.xml" value="0.198" />
+        <entry key="app/src/main/res/drawable/ic_checkbox.xml" value="0.198" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.2085" />
         <entry key="app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1" />
